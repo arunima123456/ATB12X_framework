@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" thread-count="2"  name="ATB12X_framework">
+        <classes>
+            <class name="com.thetestingacademy.tests.PageObjectModel_Test.VWO.Test_VWO_login_normal_01_script_POM">
+            </class>
+        </classes>
+    </test>
+</suite>
